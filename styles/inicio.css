@@ -17,3 +17,7 @@ body{
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.card img{
+    margin-top: 10px;
+}
