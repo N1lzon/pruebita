@@ -1,13 +1,19 @@
 body{
     background-image: url(/img/Cloud-Background1.jpg);
-    background-size: cover;
+    background-attachment: fixed;
 }
 
 #nav{
     background-color: #f1e0d7;
 }
 
-#poster{
-    height: 1150px;
-    width: 880px;
+.timer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    margin-left: 5px;
+    margin-right: 5px;
 }
