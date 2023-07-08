@@ -2,13 +2,12 @@ body{
     background-image: url(/img/Cloud-Background1.jpg);
     background-size: cover;
 }
-.fondo{
-    background-image: url(/img/crowd.png);
-    background-size: cover;
-    min-height: 80vh;
-    width: 100%;
-}
 
 #nav{
     background-color: #f1e0d7;
+}
+
+#poster{
+    height: 1150px;
+    width: 880px;
 }
