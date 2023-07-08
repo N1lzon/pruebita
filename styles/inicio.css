@@ -1,14 +1,5 @@
-body{
-    background-image: url(/img/Cloud-Background1.jpg);
-    background-attachment: fixed;
-}
-
-#nav{
-    background-color: #f1e0d7;
-}
 
 .timer{
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 20px;
 }
@@ -21,3 +12,5 @@ body{
 .card img{
     margin-top: 10px;
 }
+
+
