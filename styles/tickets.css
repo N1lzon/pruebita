@@ -1,0 +1,48 @@
+.tarjeta{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#w-clock{
+    text-align: center;
+}
+
+.card{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.card img{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .card{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .card h5{
+        font-size: 15px; 
+     }
+
+    .card p{
+       font-size: 10px; 
+    }
+
+    .card .btn{
+        font-size: 10px; 
+     }
+    
+}
+

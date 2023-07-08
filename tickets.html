@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARAGUAY MUSIC FEST</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/tickets.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body onload="check(),clock()">
+   <!-- #region barra de navegacion-->
+
+   <nav class="navbar navbar-expand-lg sticky-top" id="nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><strong>PARAGUAY MUSIC FEST</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tickets.html">TICKETS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/faq.html">PREGUNTAS FRECUENTES</a>
+                </li>
+            </ul>
+        </div>
+        <h5 id="w-temp">tiempo</h5>
+        <img src="" id="w-icon">
+    </div>
+    
+</nav>
+<!-- #endregion -->
+
+    <div class="container">
+        <div class="tarjeta">
+            <br>
+            <h2 id="w-clock">a</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    
+                    <div class="card col-3">
+                        <img src="img/crowd1-1.jpg" class="card-img-top" alt="...">
+                
+                        <div class="card-body">
+                        <h5 class="card-title">1er Dia</h5>
+                        <p class="card-text">Entradas para el primer dia del festival</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+        
+                    <div class="card col-3">
+                        <img src="img/crowd-1.png" class="card-img-top" alt="...">
+                
+                        <div class="card-body">
+                        <h5 class="card-title">2do Dia</h5>
+                        <p class="card-text">Entradas para el segundo dia del festival</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+        
+                    <div class="card col-3">
+                        <img src="img/crowd2-1.jpg" class="card-img-top" alt="...">
+                
+                        <div class="card-body">
+                        <h5 class="card-title">Ambos dias</h5>
+                        <p class="card-text"><strong>AGOTADO</strong></p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                        </div>
+                    </div>                  
+                </div>
+            </div>        
+        </div>
+    </div>
+
+
+      <!-- #region footer-->
+      <footer>
+        <div class="container">
+            <div class="col-3" id="cont"> <br>
+                <h2><i class="bi bi-facebook"></i>&nbsp;Facebook</h2>
+                <h2><i class="bi bi-instagram"></i>&nbsp;Instagram</h2>
+                <h2><i class="bi bi-twitter"></i>&nbsp;Twitter</h2>
+            </div>
+        </div>
+        <br>
+        <h3>&copy; 2023</h3>
+    </footer>
+  <!-- #endregion -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

@@ -40,3 +40,15 @@ footer h3{
     }
     
 }
+
+@media only screen and (max-width: 460px) {
+    
+    footer h2{
+      font-size: 10px;
+    }
+    
+    footer h3{
+        font-size: 10px;
+    }
+    
+}
